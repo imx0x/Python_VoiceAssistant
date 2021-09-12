@@ -1,5 +1,5 @@
 
-<h1>Python based Voice Assistant.</h1>
+<h1>Python based Voice Assistant</h1>
 
 Voice assistant which is programmed to automate and perform tasks like playing songs and videos, searching Wikipedia for information, tells jokes, tells interesting facts, reciting latest news , telling real time weather forecast.
 
