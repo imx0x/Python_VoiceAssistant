@@ -4,6 +4,7 @@ import pywhatkit
 import wikipedia
 from GoogleNews import GoogleNews
 import webbrowser
+import pynews
 import speech_recognition as sr
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
@@ -67,9 +68,17 @@ def runPy():
         info=wikipedia.summary(key)
         print(info)
         speak(info)
-    elif 'news' in command:
-        news=GoogleNews(lang='en')
-        speak(news)
+    elif 'latest news' in command:
+        new=pynews --news-stories   //latest news (new news)
+        print(new)
+        speak(new)
+        
+      
+    elif 'trending news' in command:
+        top=pynews --top-stories 10   //top news (trending news)
+        print(top)
+        speak(top)
+        
     elif 'open YouTube' in command:
         webbrowser.open("youtube.com")
         speak("openning")
