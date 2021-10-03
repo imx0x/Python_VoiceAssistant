@@ -85,7 +85,13 @@ def runPy():
     elif 'open Google' in command:
         webbrowser.open("google.com")
         speak("openning")
-
+    elif 'open StackOverflow' in command:
+        webbrowser.open("StackOverflow.com")
+        speak("openning")
+    elif 'open github' in command:
+        webbrowser.open("github.com")
+        speak("openning")
+        
 
 
 
